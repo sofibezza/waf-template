@@ -1,0 +1,18 @@
+StackName: eng-hvo-construction-manager-waf
+
+StackOptions:
+  DisableRollback: False
+  EnableTerminationProtection: True
+
+Capabilities:
+  - CAPABILITY_AUTO_EXPAND
+
+EnvironmentParamMappings:
+  stackPrefix: buproject
+  stackScope: Global
+
+Tags:
+  - Key: global:project
+    Value: hvo-construction-manager
+  - Key: global:bu
+    Value: sstt
